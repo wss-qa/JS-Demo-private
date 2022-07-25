@@ -1,0 +1,31 @@
+{
+  "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": "",
+    "projectToken": "",
+    "baseBranches": []
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff",
+    "useMendCheckNames": true
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW",
+    "issueType": "DEPENDENCY"
+  },
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+    }
+  },
+  "hostRules": [
+    {
+    "matchHost": "http://ec2-18-221-27-11.us-east-2.compute.amazonaws.com:4873",
+    "hostType": "npm",
+    "encrypted": {
+        "token": "wcBMA8xOaBJvzJNbAQf9F3v8+H2/BPYFjz3SFwBEnkyN3tiCMkbC8yhYuemRoM1TY/qLJFY//yAAvuDZSYswJtPoN9m1Wlv4Q8vJ4RmemSw+5OzLifmcvvh2LaWr4XiyQALhxDCKLWgozW/fy1Kch0sf7MNPG0ealLX4LZ8OxOPvguvPw0kjCHOAurbTBqrqTAmQfEQJLkmf/1z09rNK0AyeaszRfomKFM8Uyyu8DcqZGfDwELW7pt1bTQiSRz6YHcrFuW8WpH/zT6K8hODi91/1cyxC7wkFdgltRoLns0mm/EKDIxkEEydpW3UftlhA8XxsJ7159MbSQfZPv6CX/VJ8lG92qM3IU7CGkVt/E9JyARjQkHOC6d5BdKdq3kfs+6kr+Il+dfxFRPWQz5eTcafXiPKQXFEWVOtOYHGk2kmY0aaBREqQxp4rnLb3ooM+GPmLgLYrx7Td+rAoW+NZrSNiZvNiJccAl9QxkZwVNCy4ZEnTG+a0F2vulHDmvP7eieGA"
+        }
+    }
+]
+}
